@@ -3,9 +3,13 @@
 
 ![Mask Detection on (a.)Cats and Meows Karaoke Bar, New Orleans, LA, (b.) Bourbon Street, New Orleans, (c.) Church Street Market Place, Burlington, VT (d.) Times Square, New York](https://github.com/eashanadhikarla/wfm/blob/main/sample/main.png) -->
 
-
+Face Detection and Mask Detection on Times Square, New York
 <p align="center">
-  <img width="500" height="350" src="https://github.com/eashanadhikarla/wfm/blob/main/sample/title_fig.jpeg">
+  <img width="500" height="500" src="https://github.com/eashanadhikarla/wfm/blob/main/sample/title_fig.jpeg">
+</p>
+Mask Detection on (a.)Cats and Meows Karaoke Bar, New Orleans, LA, (b.) Bourbon Street, New Orleans, (c.) Church Street Market Place, Burlington, VT (d.) Times Square, New York
+<p align="center">
+  <img width="500" height="450" src="https://github.com/eashanadhikarla/wfm/blob/main/sample/main.png">
 </p>
 
 ## Training on YOLOv5-TTA
