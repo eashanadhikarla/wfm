@@ -1,10 +1,9 @@
 # Face Mask Detection on Real-World Webcam Images
+![Face Detection and Mask Detection on Times Square, New York]<p align="center">(https://github.com/eashanadhikarla/wfm/blob/main/sample/title_fig.jpeg)</p>
 
+![Mask Detection on (a.)Cats and Meows Karaoke Bar, New Orleans, LA, (b.) Bourbon Street, New Orleans, (c.) Church Street Market Place, Burlington, VT (d.) Times Square, New York]<p align="center">(https://github.com/eashanadhikarla/wfm/blob/main/sample/main.png)</p>
 
 ## Training on YOLOv5-TTA
-![Face Detection and Mask Detection on Times Square, New York](https://github.com/eashanadhikarla/wfm/blob/main/sample/title_fig.jpeg)
-
-![Mask Detection on (a.)Cats and Meows Karaoke Bar, New Orleans, LA, (b.) Bourbon Street, New Orleans, (c.) Church Street Market Place, Burlington, VT (d.) Times Square, New York](https://github.com/eashanadhikarla/wfm/blob/main/sample/main.png)
 
 ## Dataset (download the annoted images below)
 Dropbox link: 
