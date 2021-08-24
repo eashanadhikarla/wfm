@@ -75,3 +75,4 @@ dependencies:
     - pyyaml==5.4.1
     - torchvision==0.9.1
 prefix: ~/.conda/envs/environment
+
