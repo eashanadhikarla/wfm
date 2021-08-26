@@ -13,7 +13,7 @@ The COVID-19 pandemic has been one of the biggest health crises in recent memory
 </p>
 
 ## Dataset (download the annoted images below)
-Dropbox link: 
+Dropbox link: https://www.dropbox.com/sh/peymbuh9yidww61/AAC2YHDkDIp_W_qSnXE_7vQPa?dl=0
 
 ### Characteristics of a good dataset
 1) Significant real-world diversity (e.g., of location, time of day, distance to subjects, and number of subjects);
@@ -30,6 +30,40 @@ conda env create --file=environment.yaml
 python train.py --img 640 --batch 16 --epochs 3 --data webcam.yaml --weights yolov5s.pt
 ~~~
 
+## Directory tree
+```
+yolo-v5/
+│
+├── train.py
+├── test.py
+├── data/
+│  ├── webcam.yaml
+├── weights/
+│  ├── yolov5-tta.pt
+├──dataset
+│  ├── images/
+│  │   ├── train/
+│  │   │   ├── train-image-1.png
+│  │   │   ├── train-image-2.png
+│  │   │   ├── ...
+│  │   ├── val/
+│  │   │   ├── val-image-1.png
+│  │   │   ├── val-image-2.png
+│  │   │   ├── ...
+│  ├── labels/
+│  │   ├── train/
+│  │   │   ├── train-image-1.txt
+│  │   │   ├── train-image-2.txt
+│  │   │   ├── ...
+│  │   ├── val/
+│  │   │   ├── val-image-1.txt
+│  │   │   ├── val-image-2.txt
+│  │   │   ├── ...
+│  │   │
+│  │
+│
+```
+
 ## Experiments
 
 | Model | Size<br>(Pixels) | Model<br>Size(mb) | Inference<br>time (ms) | Precision<br>(P) | Recall<br>(R) | AP<br>(mask) | AP<br>(no-mask) |  AP<br>(unsure) | mAP<sup>test<br>@0.5 |
@@ -45,6 +79,7 @@ python train.py --img 640 --batch 16 --epochs 3 --data webcam.yaml --weights yol
 | YOLOv5x6<sup>TTA |1280 |1130   |39.2    |**37.0** |**41.6** |**46.5** |**47.4** |11.2     |**35.1**
 
 ## Citation
+If you use this repo or find it useful, please consider citing:
 ```
 @inproceedings{10.1145/3462203.3475903,
 author = {Adhikarla, Eashan and Davison, Brian D.},
