@@ -1,5 +1,7 @@
 # Face Mask Detection on Real-World Webcam Images
 <p align="left""><b>Authors:</b><br/>Eashan Adhikarla<br/>Dr. Brian D. Davison</p>
+Paper: https://doi.org/10.1145/3462203.3475903
+
 The COVID-19 pandemic has been one of the biggest health crises in recent memory. According to leading scientists, face masks and maintaining six feet of social distancing are the most substantial protections to limit the virus’s spread. Experimental data on face mask usage in the US is limited and has not been studied in scale. Thus, an understanding of population compliance with mask recommendations may be helpful in current and future pandemic situations. Knowledge of mask usage will help researchers answer many questions about the spread in various regions. One way to understand mask usage is by monitoring human behavior through publicly available webcams. Recently, researchers have come up with abundant research on face mask detection and recognition but their experiments are performed on datasets that do not reflect real-world complexity. In this paper, we propose a new webcam based real-world face-mask detection dataset of over 1TB of images collected across different regions of the United States, and we implement state-of-the-art object detection algorithms to understand their effectiveness in such a real-world application. <p><br/></p>
 
 - Face Detection and Mask Detection on Times Square, New York
